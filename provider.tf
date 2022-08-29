@@ -17,4 +17,6 @@ provider "postgresql" {
   username        = var.username
   password        = var.password
   superuser = false
+  database  = "postgres"
+  sslmode   = "require"
 }
