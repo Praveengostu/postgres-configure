@@ -20,10 +20,18 @@ variable "port" {
 
 variable "database" {
   type        = string
+  default = "test_db"
   description = "Postgressql database name"
 }
 
 variable "role_password" {
   type        = string
+  default = "test"
   description = "Postgressql role password"
+}
+
+variable "role_name" {
+  type        = string
+  default = "test_role"
+  description = "Postgressql role name"
 }
