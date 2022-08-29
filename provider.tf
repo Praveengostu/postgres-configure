@@ -16,4 +16,5 @@ provider "postgresql" {
   port            = var.port
   username        = var.username
   password        = var.password
+  superuser = false
 }
