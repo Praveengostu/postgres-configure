@@ -22,3 +22,8 @@ variable "database" {
   type        = string
   description = "Postgressql database name"
 }
+
+variable "role_password" {
+  type        = string
+  description = "Postgressql role password"
+}
